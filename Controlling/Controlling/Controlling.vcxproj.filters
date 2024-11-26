@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="通用">
+      <UniqueIdentifier>{d8324a64-5615-4cd9-9992-7ecdeca38009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="投屏">
+      <UniqueIdentifier>{a4e0283f-5f3a-425c-a33d-96efaf00efe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主页面">
+      <UniqueIdentifier>{af9a33e9-c4fa-4c1f-b54c-10ab4966476d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMD">
+      <UniqueIdentifier>{3545a5b3-e981-4fb0-8d14-c7c240dfa269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文件">
+      <UniqueIdentifier>{91d8b1c6-3ac7-44f1-be45-f9bc3784c50c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Controlling.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\InitSockLib.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Proto.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\tool.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenDlg.h">
+      <Filter>投屏</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllingDlg.h">
+      <Filter>主页面</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdDlg.h">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="CEditCmd.h">
+      <Filter>CMD</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileDlg.h">
+      <Filter>文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Controlling.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\InitSockLib.cpp">
+      <Filter>通用</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Proto.cpp">
+      <Filter>通用</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenDlg.cpp">
+      <Filter>投屏</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllingDlg.cpp">
+      <Filter>主页面</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdDlg.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="CEditCmd.cpp">
+      <Filter>CMD</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileDlg.cpp">
+      <Filter>文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Controlling.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Controlling.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Controlling.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
